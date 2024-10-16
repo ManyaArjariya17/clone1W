@@ -1,0 +1,216 @@
+h1{
+  margin-top: 120px;
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 500px;
+  height: 60px;
+  margin-left: 400px;
+  background-color: black;
+  padding-top: 10px;
+  color: white;
+}
+.nav1{
+  display: flex;
+  gap: 20px;
+  color: aliceblue;
+  list-style: none;
+  font-size: 20px;
+}
+.aboutme{
+  text-align: center;
+  margin: 30px;
+}
+.p1{
+  font-style: italic;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 20px;
+}
+.p2{
+  font-style: normal;
+  font-size: 20px;
+  font-weight: normal;
+  margin: 50px;
+  text-align: left;
+}
+.side1{
+  display: grid;
+  margin-left: 100px;
+}
+.item1{
+  font-size: 18px;
+  font-weight: bold;
+  
+}
+.cont1{
+  display: flex;
+  gap: 40px;
+  
+}
+.p3{
+  text-align: left;
+  margin-top: 10px;
+  margin-right: 50px;
+  font-size: 18px;
+  font-weight: normal;
+  padding-top: 55px;
+  line-height: 30px;
+  font-style: normal;
+}
+.goodat{
+  text-align: center;
+  font-style: italic;
+  font-weight: normal;
+}
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.skills-section {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+}
+
+.skills-section h2 {
+  margin-bottom: 30px;
+}
+
+.skill {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.skill span {
+  font-size: 18px;
+  margin-bottom: 10px;
+  display: inline-block;
+}
+
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 20px;
+}
+
+.progress {
+  background-color: #555;
+  height: 100%;
+  text-align: right;
+  line-height: 20px;
+  color: white;
+  padding-right: 10px;
+}
+
+.stats-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #555;
+  color: white;
+  padding: 20px 0;
+}
+
+.stat h3 {
+  margin: 0;
+  font-size: 32px;
+}
+
+.stat p {
+  margin: 5px 0 0;
+  font-size: 18px;
+}
+
+.mywork{
+  display: flex;
+  gap:15px;
+  margin-left: 250px;
+  margin-right: 50px;
+}
+.my{
+  text-align: center;
+  font-style: italic;
+  font-size: 25px;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+.contact-section {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #fff;
+}
+
+.contact-section h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.contact-section p {
+  font-size: 16px;
+  color: #555;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.contact-details img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.contact-details .info {
+  text-align: left;
+}
+
+.contact-details .info p {
+  font-size: 16px;
+  color: #333;
+  margin: 5px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+form button:hover {
+  background-color: #555;
+}
